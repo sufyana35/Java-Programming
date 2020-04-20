@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AccountList()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ AccountList\r\n
+comment1.params=account
+comment1.target=void\ addAccount(Account)
+comment2.params=
+comment2.target=int\ getNumberOfAccounts()
+comment3.params=accountNumber
+comment3.target=boolean\ getAccount(java.lang.String)
+comment3.text=\r\n\ add\ comment\ code\ new\r\n
+comment4.params=accountEntry
+comment4.target=void\ getAccount(int)
+comment5.params=
+comment5.target=void\ getAllAccounts()
+comment6.params=accountEntry
+comment6.target=void\ removeAccount(int)
+comment7.params=accountNumber
+comment7.target=boolean\ removeAccount(java.lang.String)
+comment8.params=accountNumber
+comment8.target=int\ search(java.lang.String)
+numComments=9

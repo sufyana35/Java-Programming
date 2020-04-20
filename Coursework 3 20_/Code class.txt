@@ -1,0 +1,250 @@
+import java.util.*;
+
+/**
+* The LabClass class represents an enrolment list for one lab class. It stores
+* the time, room and participants of the lab, as well as the instructor's name.
+* Modified to have ArrayList<Student> also has an infinite capacity.
+* 
+* Contains additional examples to those required for the lab. 
+* 
+* @author Michael Kolling and David Barnes, Ian Bradley and Alan Maughan
+* @version 01/11/2012
+*/
+public class LabClassExamples
+{
+    private String instructor;
+    private String room;
+    private String timeAndDay;
+    private ArrayList < Student > students;
+
+    /**
+    * Create a LabClass with  no limit on number of enrolments. 
+    * All other details are set to default values.
+    */
+    public LabClassExamples()
+    {
+        instructor = "unknown";
+        room = "unknown";
+        timeAndDay = "unknown";
+        students = new ArrayList < Student >();
+
+    }
+
+    /**
+     * Add a student to this LabClass.
+     */
+    public void enrollStudent(Student newStudent)
+    {
+        students.add(newStudent);
+    }
+
+    /**
+     * Return the number of students currently enrolled in this LabClass.
+     */
+    public int numberOfStudents()
+    {
+        return students.size();
+    }
+
+    /**
+     * Set the room number for this LabClass.
+     */
+    public void setRoom(String roomNumber)
+    {
+        room = roomNumber;
+    }
+
+    /**
+     * Set the time for this LabClass. The parameter should define the day
+     * and the time of day, such as "Friday, 10am".
+     */
+    public void setTime(String timeAndDayString)
+    {
+        timeAndDay = timeAndDayString;
+    }
+
+    /**
+     * Set the name of the instructor for this LabClass.
+     */
+    public void setInstructor(String instructorName)
+    {
+        instructor = instructorName;
+    }
+
+    /**
+     * Print out a class list with other LabClass 
+     * details to the standard terminal.
+     * 
+     * Method uses a for .. each loop
+     */
+    public void printList()
+    {
+        System.out.println("Lab class " + timeAndDay);
+        System.out.println("Instructor: " + instructor + "   room: " + room);
+        System.out.println("Class list:");
+
+        for(Student student : students)
+        {
+            student.print();
+        }
+
+        System.out.println("Number of students: " + numberOfStudents());
+    }
+    
+    /**
+     *  a version of printList to demo while loop
+     */
+    public void printListUsingWhile()
+    {
+        System.out.println("Lab class " + timeAndDay);
+        System.out.println("Instructor: " + instructor + "   room: " + room);
+        System.out.println("Class list:");
+
+        int index = 0;
+        while(index < students.size()) 
+        {
+            students.get(index).print();
+            index++;
+        }
+
+        System.out.println("Number of students: " + numberOfStudents());
+    }
+   
+
+    /**
+     * Print out details of a student
+     * @param studentEntry The entry in the list
+     */
+    public void showStudent(int studentEntry)
+    {
+        if(studentEntry < 0)
+        {
+            System.out.println("Negative entry :" + studentEntry);
+        }
+        else if(studentEntry < numberOfStudents())
+        {
+            Student student = students.get(studentEntry);
+            student.print();
+        }
+        else
+        {
+            System.out.println("No such entry :" + studentEntry);
+        }
+    }
+
+    /**
+     * removes a student from the list
+     * @param studentEntry The entry in the list
+     */
+    public void removeStudent(int studentEntry)
+    {
+        if(studentEntry < 0)
+        {
+            System.out.println("Negative entry :" + studentEntry);
+        }
+        else if(studentEntry < numberOfStudents())
+        {
+            students.remove(studentEntry);
+        }
+        else
+        {
+            System.out.println("No such entry :" + studentEntry);
+        }
+    }
+    
+    /**
+     * removes a student from the list
+     * 
+     * @param aStudent the student to remove
+     */
+    
+    public void removeStudent(Student aStudent)
+    {       
+        students.remove(aStudent);       
+    }
+    
+    
+    /**
+     *  calculates the average number of credits for students in the lab class
+     *  is answer to an exercise in lecture
+     */
+    public double averageCredits()
+    {
+        double sum = 0.0;
+        for(Student student :  students)
+        {
+            sum = sum + student.getCredits();
+        }
+        return sum / numberOfStudents();
+    }
+        
+    /**
+     * Find a student by name
+     */
+    public int findStudent(String targetName)
+    {
+        int index = 0;
+        boolean found = false;
+        
+        while (index < students.size() && !found)
+        {
+            Student student = students.get(index);
+            if (student.getName().equals(targetName))
+            {
+                // We don't need to keep looking
+                found = true;   
+            }
+            else
+            {
+               index++;
+            }
+        }
+        if (index < students.size())
+        {
+          return index;
+        }
+        else
+        {
+            return -1;
+        }
+    }
+    
+    /************************* some extra examples ***********************************/
+    /**
+     * demo of collection as return type 
+     */
+    public ArrayList<Student> getClassList()
+    {
+        return students;
+    }
+    
+    /** 
+     * demo of collection as parameter
+     * 
+     */
+    public void appendClassList( ArrayList<Student> someStudents)
+    {
+        for( Student student : someStudents )
+        {
+            students.add(student);
+        }
+    }
+    
+    /**
+     * shows effect of copying two lists
+     */
+    public void copyStudents( ArrayList<Student> someStudents)
+    {
+        students = someStudents;
+    }
+    
+    /**
+     * copy one ArrayList to anotherArrayList
+     * 
+     */
+    public void copying(ArrayList<Student> s1, ArrayList<Student> s2)
+    {
+        s1 = s2;
+        
+    }
+}

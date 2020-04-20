@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=maxNoOfAccounts
+comment0.target=AccountCollection(int)
+comment1.params=account
+comment1.target=void\ addAccount(Account)
+comment2.params=
+comment2.target=int\ getCapacity()
+comment2.text=\r\n\ \r\n
+comment3.params=
+comment3.target=int\ getNumberOfAccounts()
+comment4.params=accountNumber
+comment4.target=int\ search(java.lang.String)
+comment5.params=
+comment5.target=void\ printAllAccounts()
+comment6.params=accountNumber
+comment6.target=boolean\ removeAccount(java.lang.String)
+comment6.text=\r\n\ Remove\ an\ account\ by\ the\ account\ number\ specified\ by\ the\ user\r\n\ \r\n
+comment7.params=index
+comment7.target=void\ squash(int)
+comment8.params=accountNumber
+comment8.target=boolean\ printAccount(java.lang.String)
+comment8.text=\r\n\ Print\ out\ details\ of\ a\ specified\ account\r\n\ @param\ account\ return\ account\ number\ specified\r\n
+numComments=9

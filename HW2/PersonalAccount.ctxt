@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=firstName\ lastName\ accountNumber\ street\ town\ postcode\ cardNumber\ cardType
+comment0.target=PersonalAccount(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ char)
+comment0.text=\r\n\ @param\ firstName\ the\ account\ holders\ first\ name\r\n\ @param\ lastName\ the\ account\ holders\ last\ name\r\n\ @param\ accountNumber\ the\ users\ account\ number\r\n\ @param\ street\ account\ holders\ street\r\n\ @param\ town\ account\ holders\ town\r\n\ @param\ postcode\ account\ holders\ postcode\r\n\ @param\ cardNumber\ the\ users\ card\ number\r\n\ @param\ cardType\ the\ card\ type\ used\r\n
+comment1.params=firstName\ lastName\ accountNumber\ street\ town\ postcode\ cardNumber\ cardType\ points
+comment1.target=PersonalAccount(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ char,\ int)
+comment1.text=\r\n\ @param\ firstName\ the\ account\ holders\ first\ name\r\n\ @param\ lastName\ the\ account\ holders\ last\ name\r\n\ @param\ accountNumber\ the\ users\ account\ number\r\n\ @param\ street\ account\ holders\ street\r\n\ @param\ town\ account\ holders\ town\r\n\ @param\ postcode\ account\ holders\ postcode\r\n\ @param\ cardNumber\ the\ users\ card\ number\r\n\ @param\ cardType\ the\ card\ type\ used\r\n\ @param\ points\ amount\ of\ points\ held\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCardNumber()
+comment2.text=\r\n\ get\ card\ number\r\n\ @return\ cardNumber\ of\ account\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCardType()
+comment3.text=\r\n\ get\ account\ card\ type\r\n\ @return\ cardType\ of\ account\r\n
+comment4.params=
+comment4.target=void\ print()
+comment4.text=\r\n\ print\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ print\r\n
+numComments=6

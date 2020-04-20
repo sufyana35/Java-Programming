@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HW4GUI()
+comment0.text=\r\n\ GUI\ constructor\r\n
+comment1.params=
+comment1.target=void\ showFrame()
+comment1.text=\r\n\ creates\ a\ JFrame\r\n
+comment2.params=
+comment2.target=void\ makeFrame()
+comment2.text=\r\n\ contents\ for\ the\ JFrame\r\n
+comment3.params=
+comment3.target=void\ createLabelPanel()
+comment3.text=\r\n\ labels\r\n
+comment4.params=
+comment4.target=void\ createTextPanel()
+comment4.text=\r\n\ text\ panel\ for\ data\ to\ be\ entered\r\n
+comment5.params=
+comment5.target=void\ createButtonPanel()
+comment5.text=\r\n\ button\ panel\ for\ the\ user\ to\ interact\ with\ the\ system\r\n
+comment6.params=
+comment6.target=void\ addActionListeners()
+comment6.text=\r\n\ action\ listeners\ for\ the\ buttons\r\n
+comment7.params=e
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.text=\r\n\ actions\ to\ be\ performed\ when\ a\ button\ is\ pressed\r\n\ \r\n\ @param\ e\ the\ event\ to\ be\ followed\ depending\ on\ action\ listener\r\n
+numComments=8

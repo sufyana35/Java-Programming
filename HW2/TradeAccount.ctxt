@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=firstName\ lastName\ accountNumber\ street\ town\ PostCode\ accountName\ cStreet\ cTown\ cPostCode\ vatNumber
+comment0.target=TradeAccount(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ constructor\ for\ objects\ of\ class\ account.\r\n\ the\ number\ of\ pointsheld\ should\ be\ set\ to\ the\ supplied\ value\r\n\ \r\n\ @param\ firstName\ the\ account\ holders\ first\ name\r\n\ @param\ lastName\ the\ account\ holders\ last\ name\r\n\ @param\ accountNumber\ the\ users\ account\ number\r\n\ @param\ street\ account\ holders\ street\r\n\ @param\ town\ account\ holders\ town\r\n\ @param\ postcode\ account\ holders\ postcode\r\n\ @param\ accountName\ the\ accounts\ name\r\n\ @param\ cStreet\ the\ companies\ street\r\n\ @param\ cTown\ the\ companies\ street\r\n\ @param\ cPostcode\ the\ companies\ postcode\r\n\ @param\ vatNumber\ the\ companies\ Vat\ Number\r\n
+comment1.params=firstName\ lastName\ accountNumber\ street\ town\ PostCode\ accountName\ cStreet\ cTown\ cPostCode\ vatNumber\ points
+comment1.target=TradeAccount(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ constructor\ for\ objects\ of\ class\ account.\r\n\ the\ number\ of\ pointsheld\ should\ be\ set\ to\ the\ supplied\ value\r\n\ \r\n\ @param\ firstName\ the\ account\ holders\ first\ name\r\n\ @param\ lastName\ the\ account\ holders\ last\ name\r\n\ @param\ accountNumber\ the\ users\ account\ number\r\n\ @param\ street\ account\ holders\ street\r\n\ @param\ town\ account\ holders\ town\r\n\ @param\ postcode\ account\ holders\ postcode\r\n\ @param\ accountName\ the\ accounts\ name\r\n\ @param\ cStreet\ the\ companies\ street\r\n\ @param\ cTown\ the\ companies\ street\r\n\ @param\ cPostcode\ the\ companies\ postcode\r\n\ @param\ vatNumber\ the\ companies\ Vat\ Number\r\n\ @param\ points\ the\ amount\ of\ points\ held\r\n
+comment2.params=
+comment2.target=java.lang.String\ getAccountName()
+comment2.text=\r\n\ get\ the\ account\ name\r\n\ @return\ the\ accountName\r\n
+comment3.params=
+comment3.target=java.lang.String\ getCompanyAddress()
+comment3.text=\r\n\ get\ the\ company\ address\r\n\ @return\ companyAddress\ returns\ company\ address\r\n
+comment4.params=
+comment4.target=java.lang.String\ getVatNumber()
+comment4.text=\r\n\ get\ vat\ number\r\n\ @return\ VatNumber\ of\ company\r\n
+comment5.params=
+comment5.target=void\ print()
+comment5.text=\r\n\ Print\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ string\ to\ String\r\n
+numComments=7

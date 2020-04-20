@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=fName\ lName\ acctNumber
+comment0.target=BasicAccount(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Account.\r\n\ The\ number\ of\ pointsHeld\ should\ should\ be\ set\ to\r\n\ the\ supplied\ value.\r\n\ \r\n\ @param\ fName\ The\ Account\ Holder's\ first\ name\ \r\n\ @param\ lName\ The\ Account\ Holder's\ last\ name\r\n\ @param\ acctNumber\ The\ account\ number\r\n
+comment1.params=
+comment1.target=java.lang.String\ getFirstName()
+comment1.text=\r\n\ Get\ the\ Account\ Holder's\ first\ name\r\n\ \r\n\ @return\ the\ Account\ Holder's\ first\ name\r\n
+comment2.params=
+comment2.target=java.lang.String\ getLastName()
+comment2.text=\r\n\ Get\ the\ Account\ Holder's\ last\ name\r\n\ \r\n\ @return\ the\ Account\ Holder's\ last\ name\r\n
+comment3.params=
+comment3.target=java.lang.String\ getAccountNumber()
+comment3.text=\r\n\ Get\ the\ Account\ Holder's\ account\ Number\r\n\ \r\n\ @return\ the\ Account\ Holder's\ account\ number\r\n
+comment4.params=
+comment4.target=void\ printAccountDetails()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ Return\ details\ of\ an\ account\ as\ a\ formated\ string\r\n\ \r\n\ @return\ the\ account\ details\ of\ a\ particular\ account\r\n
+comment6.params=fName
+comment6.target=void\ setFirstName(java.lang.String)
+comment6.text=\r\n\ Change\ the\ first\ name\r\n\ \r\n\ @param\ fName\ the\ new\ first\ name\r\n\ \r\n
+comment7.params=lName
+comment7.target=void\ setLastName(java.lang.String)
+comment7.text=\r\n\ Change\ the\ last\ name\r\n\ \r\n\ @param\ lName\ the\ new\ last\ name\r\n\ \r\n
+numComments=8
